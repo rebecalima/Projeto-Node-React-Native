@@ -18,6 +18,13 @@ Começando o projeto:
     yarn init -y  -> (Cria o package.json(está em toda aplicação que envolve js), contém informações de todas as dependências)
     yarn add express (Micro-framework que ajuda a trabalhar com rotas (Rest API))
 
-    yarn add nodemon (Nodemon acompanha as alterações do projeto e atualiza)
+    yarn add nodemon -D (Nodemon acompanha as alterações do projeto e atualiza)
         Parar usá-lo é preciso também adicioná-lo ao package dentro de scripts:{<nomeQqr>: nodemon server.js}
         e "yarn <nomeQqr>"
+
+Obs: Instalar o Postman ou Insomnia para testar as API's
+
+Criando a base de dados:
+    Criando um cluster no MongoDB Atlas e depois uma base de dados
+    Pode baixar o mongodb compass para visualizar as informações
+    

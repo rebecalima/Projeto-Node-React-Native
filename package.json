@@ -1,0 +1,15 @@
+{
+  "name": "ProjetoNodeReactNative",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/rebecalima/ProjetoNodeReactNative.git",
+  "author": "Rebeca Lima <rebeca.gomes@sempreit.com.br>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^1.19.1"
+  }
+}
