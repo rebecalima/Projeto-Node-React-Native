@@ -1,8 +1,13 @@
 const express = require('express');
+const mongoose = require('mongoose');
+
 const routes = require('./routes'); 
 
 const server = express();
 
+ mongoose.connect('mongodb+srv://user1:user1@cluster0-hu4dh.mongodb.net/oministack?retryWrites=true&w=majority',{
+     useNewUrlParser: true
+ });
 //Função de teste
 /*server.get('/', (req, res) => {
     return res.send("Hello World");

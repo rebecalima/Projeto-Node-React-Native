@@ -27,4 +27,7 @@ Obs: Instalar o Postman ou Insomnia para testar as API's
 Criando a base de dados:
     Criando um cluster no MongoDB Atlas e depois uma base de dados
     Pode baixar o mongodb compass para visualizar as informações
-    
+    yarn add mongoose -> odm(Ferramenta que vai facilitar o uso do banco de dandos usando o javascript que vai converter pra sql)
+
+Facilitando as requisições de API:
+    yarn add axios
