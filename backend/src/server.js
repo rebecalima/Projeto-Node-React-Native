@@ -1,5 +1,6 @@
 const express = require('express');
 const mongoose = require('mongoose');
+const cors = require('cors');
 
 const routes = require('./routes'); 
 
@@ -12,6 +13,7 @@ const server = express();
 /*server.get('/', (req, res) => {
     return res.send("Hello World");
 })*/
+server.use(cors());
 server.use(express.json());
 server.use(routes);
 server.listen(3333); // Escutar na porta 3333

@@ -20,7 +20,7 @@ module.exports = {
         const userExists = await Dev.findOne( {user: username} );
 
         if(userExists)
-            return res.json( { "mensagem": "Dev já existe"} );
+            return res.json(userExists);
 
         const response = await axios.get(`https://api.github.com/users/${username}`)
         .catch(error => {

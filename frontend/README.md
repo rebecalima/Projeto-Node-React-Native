@@ -80,3 +80,8 @@ yarn start - terminal visual studio dentro da pasta.
     não pelo html em si.
 * React serve pra qualquer coisa que seja visual, pra construir qualquer tipo de interface ou de aplicação visual.
 * Um componente é uma função que retorna um conteúdo html.
+
+* Para utilizar o sistema de roteamento do site, é preciso uma biblioteca do React: 
+    yarn add react-router-dom
+        * o dom, assim como no "import ReactDOM from 'react-dom';" no arquivo index.js, significa que é uma biblioteca/versão para o 
+        o html/web.

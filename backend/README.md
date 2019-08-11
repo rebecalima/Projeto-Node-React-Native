@@ -31,3 +31,6 @@ Criando a base de dados:
 
 Facilitando as requisições de API:
     yarn add axios
+
+Permitir que o React(aplicação externa) acesse minha api:
+    yarn add cors   - e depois importa no server.js
